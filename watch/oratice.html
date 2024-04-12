@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches</title>
+    <link rel="stylesheet" href="assign.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="assign.html"><img src="logo2-01.svg" class="logo" alt="Logo"></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">WATCHES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <p>When the iconic meets the unexpected</p>
+            <h1>New Watches 2024</h1>
+            <p>Unveiling on 9 April 2024</p>
+            <br>
+            <a href="#" class="learn-btn">Learn more ></a>
+        </div>
+    </section>
+    
+    <section class="watches">
+        <h1>Watch X</h1>
+        <p>Only place to buy time</p>
+        <div class="row">
+            <div class="watch-col">
+                <h3>Services</h3>
+                <p>Find your watch<br>Configure your watch<br>Men's Watch<br>Women's Watch</p>  
+            </div>
+            <div class="watch-col">
+                <h3>Buy a watch</h3>
+                <p>Store locator<br>Buying a watch</p>
+            </div>
+            <div class="watch-col">
+                <h3>Care and servicing</h3>
+                <p>Service Centre locator<br>Watch care and service</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="new">
+        <h1>New Watches</h1>
+        <p>2024 collections</p>
+        <div class="row">
+            <div class="new-col">
+                <img src="watch3.jpg" alt="Watch 3">
+                <div class="layer">
+                    <h3>DAYTONA</h3>
+                </div>
+            </div>
+            <div class="new-col">
+                <img src="watch.jpg" alt="Watch">
+                <div class="layer">
+                    <h3>DEEP SEA</h3>
+                </div>
+            </div>
+            <div class="new-col">
+                <img src="watch6.jpg" alt="Watch 6">             
+                <div class="layer">
+                    <h3>DIAL</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="care">
+        <h1>Our Services</h1>
+        <p>Our watches are designed and built to last </p>
+    
+        <div class="row">
+            <div class="care-col">
+               <img src="repair.jpg" alt="Quality and reliability">
+               <h3>Quality and reliability</h3>
+               <p>At WatchX we want to ensure that your watch performs as well throughout your life as on the day you bought it.</p>
+            </div> 
+            <div class="care-col">
+                <img src="repair2.jpg" alt="Servicing your watch">
+                <h3>Servicing your watch</h3>
+                <p>WatchX watches are exceptional. They are designed to function perfectly today, tomorrow and into the future.</p>
+             </div> 
+             <div class="care-col">
+                <img src="repair3.jpg" alt="Service center locator">
+                <h3>Service center locator</h3>
+                <p>Every official WatchX store is authorized to receive your watch for servicing.</p>
+             </div> 
+         </div>
+    </section>
+    <!----About WatchX----->
+    <section class="about">
+        <h1>About WatchX</h1>
+        <br>
+        <br>
+
+        <p>WatchX is an integrated and independent Swiss watch manufacture. Headquartered in Geneva, it is recognized for its expertise and the quality of its products.</p>
+        <br>
+        <div class="row">
+            <div class="about-col">
+                <img src="founder.jpg" alt="Hans Wilsdorf">
+                <div>
+                    <p>Hans Wilsdorf, founder of the company, instilled a notion of perpetual excellence, leading to major watchmaking innovations, such as the Oyster, the first waterproof wristwatch and the Perpetual rotor self-winding mechanism. The brand designs, develops and produces the majority of its watch components in-house. WatchX also supports the arts and culture, sport, exploration, and those who are devising solutions to preserve the planet. It is a committed and responsible company whose products are made to last. In its quest for excellence, WatchX strives each day to improve not only its watches but also its environmental performance and its impact on society.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----Contact Us---->
+    <section class="cta">
+        <h1> Get your WatchX</h1>
+        <br>
+        <a href="#" class="learn-btn">Contact Us</a>
+    </section>
+
+    <!----Footer------>
+    <section class="footer">
+        <h4>Know about us more</h4>
+        <p>WatchX innovations have indelibly marked the history of global watchmaking and bear witness to its founderunending quest for excellence.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </section>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
